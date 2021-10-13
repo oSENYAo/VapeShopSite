@@ -5,4 +5,8 @@
     <RootNamespace>VapeShopeSite.Configuration</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VapeShopSite.Domain\VapeShopSite.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

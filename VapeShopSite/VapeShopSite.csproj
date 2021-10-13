@@ -5,4 +5,14 @@
     <RootNamespace>VapeShopeSite.WebApi</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VapeShopSite.Common\VapeShopSite.Common.csproj" />
+    <ProjectReference Include="..\VapeShopSite.DAL\VapeShopSite.DAL.csproj" />
+    <ProjectReference Include="..\VapeShopSite.Domain\VapeShopSite.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
 </Project>

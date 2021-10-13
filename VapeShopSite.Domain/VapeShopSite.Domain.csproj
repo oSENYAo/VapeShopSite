@@ -5,4 +5,8 @@
     <RootNamespace>VapeShopeSite.Application</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\VapeShopSite.Common\VapeShopSite.Common.csproj" />
+  </ItemGroup>
+
 </Project>
