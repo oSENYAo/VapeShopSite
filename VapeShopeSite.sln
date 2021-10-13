@@ -3,19 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31624.102
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{A987E845-7505-4404-B97F-CEC3D4AC4188}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapeShopSite.Common", "VapeShopeSite.Core\VapeShopSite.Common.csproj", "{B3476900-142A-4AE5-806E-20A0FA6D1306}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Ifrastructure", "Ifrastructure", "{B8775D68-C7D3-4739-AAA2-26A482FF5D11}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapeShopSite.Domain", "VapeShopSite.Domain\VapeShopSite.Domain.csproj", "{E55B05C3-B518-4EB1-95A1-1564CEBA009E}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{6E99ECF8-506E-4D09-ACD9-0E3B0DA8F621}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapeShopSite", "VapeShopSite\VapeShopSite.csproj", "{BF2258EC-2EF0-49B1-8A81-57D100302C01}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapeShopeSite.Models", "VapeShopeSite.Core\VapeShopeSite.Models.csproj", "{B3476900-142A-4AE5-806E-20A0FA6D1306}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapeShopSite.DAL", "VapeShopSite.DAL\VapeShopSite.DAL.csproj", "{36AC76E6-EEF3-45DF-8BD5-0849C25069E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapeShopeSite.Application", "VapeShopeSite.Application\VapeShopeSite.Application.csproj", "{E55B05C3-B518-4EB1-95A1-1564CEBA009E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapeShopSite.UnitTest", "VapeShopSite.UnitTest\VapeShopSite.UnitTest.csproj", "{A30E0063-ECEE-491E-9618-6431F2B5341E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapeShopeSite.WebApi", "VapeShopeSite.WebApi\VapeShopeSite.WebApi.csproj", "{BF2258EC-2EF0-49B1-8A81-57D100302C01}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VapeShopeSite.Configuration", "VapeShopeSite.Configuration\VapeShopeSite.Configuration.csproj", "{36AC76E6-EEF3-45DF-8BD5-0849C25069E3}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{22F35B20-1DD0-445C-9205-C08C50610FC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,15 +37,16 @@ Global
 		{36AC76E6-EEF3-45DF-8BD5-0849C25069E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36AC76E6-EEF3-45DF-8BD5-0849C25069E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36AC76E6-EEF3-45DF-8BD5-0849C25069E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A30E0063-ECEE-491E-9618-6431F2B5341E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A30E0063-ECEE-491E-9618-6431F2B5341E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A30E0063-ECEE-491E-9618-6431F2B5341E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A30E0063-ECEE-491E-9618-6431F2B5341E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{B3476900-142A-4AE5-806E-20A0FA6D1306} = {A987E845-7505-4404-B97F-CEC3D4AC4188}
-		{E55B05C3-B518-4EB1-95A1-1564CEBA009E} = {A987E845-7505-4404-B97F-CEC3D4AC4188}
-		{BF2258EC-2EF0-49B1-8A81-57D100302C01} = {6E99ECF8-506E-4D09-ACD9-0E3B0DA8F621}
-		{36AC76E6-EEF3-45DF-8BD5-0849C25069E3} = {B8775D68-C7D3-4739-AAA2-26A482FF5D11}
+		{A30E0063-ECEE-491E-9618-6431F2B5341E} = {22F35B20-1DD0-445C-9205-C08C50610FC8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3CE45BAE-5ED0-43F3-BEFD-39FA3175B066}
