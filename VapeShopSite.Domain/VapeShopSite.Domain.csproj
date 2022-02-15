@@ -9,4 +9,8 @@
     <ProjectReference Include="..\VapeShopSite.Common\VapeShopSite.Common.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Models\Messages\" />
+  </ItemGroup>
+
 </Project>

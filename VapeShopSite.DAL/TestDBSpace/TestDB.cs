@@ -10,5 +10,6 @@ namespace VapeShopeSite.DAL.TestDBSpace
         {
             return Task.FromResult(new TestDomainEntity() { Result = "HELLO" });
         }
+
     }
 }
